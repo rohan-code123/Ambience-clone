@@ -1,0 +1,100 @@
+
+    .card {
+        gap: 30px;
+  width: 340px;
+  overflow: hidden;
+   position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+  
+}
+
+.card:hover{
+     box-shadow: 5px 1px 15px gray;
+    border: none;
+    .badge{
+        background-color: #002347;
+        color: #fdc632;
+    }
+
+    .title{
+        color: #fdc632;
+    }
+}
+.course-contant{
+    width: 350px;
+    /* border: 1px solid black; */
+    padding: 30px 26px;
+    background-color: #f9f9ff;
+    border: none;
+}
+.image{
+    width: 350px;
+    height: 275px;
+    object-fit: cover;
+}
+
+
+.category {
+    font-size: 13px;
+    height: 35px;
+    width: 163px;
+    padding: 2px 21px;
+    background-color:#002347 ;
+    color: white;
+    margin: 0 0 24px;
+    justify-content: center;
+     /* justify-content: flex-start; */
+     align-items: center;
+     display: flex;
+}
+
+.badge{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: #fdc632;
+    font-size: 19px;
+    padding: 10px;
+   text-align: center;
+    position: absolute;
+    left: 250px;
+    bottom: 290px;
+}
+.title{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    font-size: 20px;
+    color: #002347;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 0 16px;
+    /* text-align: left; */
+}
+.discription{
+    text-align: left;
+    font-size: 16px;
+    color: #7b838a;
+    margin: 0 0 20px;
+    line-height: 25px;
+}
+
+.duration{
+    padding: 10px;
+    font-size: 16px;
+    color: #002347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.details{
+    width: 180px;
+    height: 50px;
+    margin: 0 0 0 16px;
+    font-weight: bold;
+    background-color: #fdc632;
+    color: #002347;
+    border: none;
+    border-radius: 8px;
+}

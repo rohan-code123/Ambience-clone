@@ -1,0 +1,249 @@
+.hero{
+    background: linear-gradient( 
+        to bottom,
+        #ffd84d 0%,
+        #FFE98A 35%,
+        #FFF3CA 65%,
+        #FFFFFF 100%
+    );
+}
+.hero-banner{
+    height: 409px;
+    text-align: center;
+}
+
+.hero-heading{
+    /* margin: 100px 0 20px 0; */
+    padding: 100px 0 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002347;
+}
+
+.hero-banner h1{
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.hero-banner h1 span{
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f8d46;
+}
+
+
+.hero-btn1{
+    height: 50px;
+    width: 221px;
+    background-color: #002347;
+    color: #fdc632;
+    border: none;
+    font-size: 13px;
+}
+
+.hero-btn2{
+     height: 50px;
+    width: 171px;   
+    margin: 0 0 0 16px;
+    background-color: #fdc632;
+    color: #002347;
+    font-size: 13px;
+    border: none;
+}
+
+.hero-ace{
+    height: 600px;
+    width: 1000px;
+     box-shadow: 1px 1px 5px gray;
+     border-radius: 10px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    
+}
+
+.carrier-guide{
+    height: 500px;
+    width: 430px;
+    flex-direction: column;
+    display: flex;
+    
+}
+.carrier-guide h1{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px;
+}
+
+.carrier-guide h1 span{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px;
+    color: #fdc632;
+}
+.carrier-guide p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px;
+    color: #555555
+}
+.carrier-guide > button{
+    height: 53px;
+    width: 175px;
+    font-size: 16px;
+    background-color: #fdc632;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+}
+.carrier-buttons{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.carrier-btn{
+    background-color: whitesmoke;
+    height: 82px;
+    width: 205px;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #7b838a;
+}
+.icon{
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+    background-color: #e0f2fe;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    
+}
+.hero-review{
+      height: 500px;
+    width: 430px;
+    margin: 0 0 0 40px;
+
+}
+
+.review-1 img{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    border: 5px solid #fdc632;
+    position: relative;
+    top: 70px;
+    left: 170px;
+    object-fit: cover;
+       
+
+}
+.review-1 p{
+    height: 70px;
+    width: 220px;
+     box-shadow: 1px 1px 5px gray;
+    position: relative;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 80px;
+    left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.review-2 img{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    border: 5px solid #fdc632;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    object-fit: cover;
+        
+
+
+}
+.review-2 p{
+    height: 70px;
+    width: 220px;
+         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 70px;
+    left: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    
+}
+
+
+
+
+
+.review-3 img{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    border: 5px solid #fdc632;
+    position: relative;
+    bottom: 80px;
+    left: 290px;
+    object-fit: cover;
+    
+
+}
+.review-3 p{
+    height: 70px;
+    width: 220px;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 150px;
+    left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .hero{
+    flex-direction: column;
+    display: flex;
+}
+
+/* .hero-review{
+      height: 500px;
+    width: 100%;
+    margin: 0 0 0 40px;
+
+} */
+
+}
+
+
+
+
+
+
+

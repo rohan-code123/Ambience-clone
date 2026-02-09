@@ -1,0 +1,28 @@
+.review{
+    padding: 0 0 100px;
+    margin-top: 100px;
+}
+
+
+.review-heading{
+    height: 150px;
+    text-align: center;
+    width: 100%;
+    
+}
+.review-heading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 18px 0;
+    font-size: 36px;
+}
+
+.review-heading p{
+    color: #7b838a;
+    font-size: 16px;
+}
+
+.review-container{
+    height: 369px;
+    width: 100%;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,49 @@
+.footer{
+  margin-top: 100px;
+  /* background-color: #002347; */
+}   
+
+.footer-container{
+    /* margin:0 194px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 130px 0 130px 22%;
+    margin-top: 451px;
+    
+     background-color: #002347;
+
+}
+.footer-menu{
+    width: 190px;
+    /* background-color: white; */
+    padding: 0 15px;
+    
+}
+.footer-menu h4{
+    margin: 0 0 35px;
+    font-size: 18px;
+    color: white;
+}
+.footer-menu ul{
+    list-style: none;
+    color: #7b838a;
+    font-size: 16px;
+    
+}
+
+.footer-menu ul li{
+    margin: 0 0 15px;
+}  
+
+.footer-logo{
+    height: 242px;
+    width: 380px;
+    /* background-color: wheat; */
+}
+
+.footer-logo img{
+    height: 200px;
+    width: 200px;
+    margin: 0 0 0 100px;
+}

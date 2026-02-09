@@ -1,0 +1,31 @@
+.popular{
+    padding: 0 0 100px;
+}
+
+
+.popular-heading{
+    height: 150px;
+    text-align: center;
+    width: 100%;
+    
+}
+.popular-heading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 18px 0;
+    font-size: 36px;
+}
+
+.popular-heading p{
+    color: #7b838a;
+    font-size: 16px;
+}
+
+.cards-container{
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: center;
+   padding: 0 20% 0 20%;
+   gap: 30px;
+    
+}

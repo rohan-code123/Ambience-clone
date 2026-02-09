@@ -1,0 +1,33 @@
+.info-slider{
+    display: flex;
+    gap: 50px;
+    padding: 36px 0;display: block;
+}
+
+.info-btn{
+    
+    height: 78px;
+    width: 270px;
+    background-color: white;
+    border: 1px solid rgb(238, 235, 235);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #7b838a;
+    border-radius: 18px;
+}
+.info-icon{
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+    background-color: #e0f2fe;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    
+}
